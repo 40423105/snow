@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL KMOL 課程</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/all.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-09-19T21:41:00+08:00</updated><entry><title>Merry Christmas</title><link href="http://coursemdetw.github.io/reveal/2015cp_note1.html" rel="alternate"></link><updated>2015-09-19T21:41:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_note1.html</id><summary type="html">&lt;p&gt;老人聖誕節快樂&lt;/p&gt;
+
+&lt;p&gt;40423105聖誕節雪人&lt;/p&gt;
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;"&gt;
+
+Your browser does not support the canvas element.
+&lt;/canvas&gt;
+
+&lt;script type="text/javascript"&gt;
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#000000";
+ctx.beginPath();
+ctx.arc(100, 200, 500, 0, Math.PI * 2, true);
+ctx.closePath();
+ctx.fill();
+&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#D3D3D3";
+ctx.beginPath();
+ctx.arc(250, 400, 100, 0, Math.PI * 2, true);
+ctx.arc(250, 265, 75, 0, Math.PI * 2, true);
+ctx.closePath();
+ctx.fill();
+&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#000000";
+ctx.beginPath();
+ctx.arc(283, 228, 10, 0, Math.PI * 2, true);
+ctx.arc(215, 228, 10, 0, Math.PI * 2, true);
+ctx.closePath();
+ctx.fill();
+&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#DC143C";
+ctx.beginPath();
+ctx.arc(252, 278, 10, 0, Math.PI * 2, true);
+ctx.closePath();
+ctx.fill();
+&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#000000";
+ctx.beginPath();
+ctx.arc(252, 348, 10, 0, Math.PI * 2, true);
+ctx.arc(252, 378, 10, 0, Math.PI * 2, true);
+ctx.arc(252, 408, 10, 0, Math.PI * 2, true);
+ctx.arc(252, 438, 10, 0, Math.PI * 2, true);
+ctx.arc(252, 468, 10, 0, Math.PI * 2, true);
+ctx.closePath();
+ctx.fill();
+&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#FFFF00";
+ctx.beginPath();
+ctx.arc(50, 65, 81, 0, Math.PI * 2, true);
+ctx.closePath();
+ctx.fill();
+&lt;/script&gt;
+
+&lt;p&gt;&lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary><category term="Merry Christmas"></category></entry><entry><title>2015 計算機程式 40423105 作業</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w1.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423105</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_hw_w1.html</id><summary type="html">&lt;p&gt;以下為作業一內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="simplest.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="simplest.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
+&lt;iframe src="https://player.vimeo.com/video/148526219" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/148526219"&gt;wwww&lt;/a&gt; from &lt;a href="https://vimeo.com/user44512429"&gt;40423105&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
